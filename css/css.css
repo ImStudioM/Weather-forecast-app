@@ -1,0 +1,42 @@
+.heading {
+    text-align: center;
+    background: aliceblue;
+	margin-bottom: 30px;
+}
+.heading h1 {
+    padding: 3% 0 0;
+    font-size: 3.5em;
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: #b2c7d9;
+    text-shadow: 1px 1px 1px rgb(97, 135, 168);
+}
+.heading h3 {
+    padding-bottom: 2%;
+    color: #b2c7d9;
+	font-size: 2.5em;
+}
+.fields .row {
+    margin: 2% 0;
+}
+.myCity {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #6c6c6c;
+}
+
+
+.panel {
+    margin-bottom: 0px;
+}
+
+.panel-info>.panel-heading {
+    font-size: 110%;
+    font-weight: 800;
+}
+
+b, strong {
+    color: #5696a2;
+}

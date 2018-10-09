@@ -1,0 +1,23 @@
+<h2>Show result for <span class="myCity">{{ city }}</span> </h2>
+
+<a href='/'>Go babk</a>
+
+<div ng-repeat="r in weatherResult.list">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="panel panel-info">
+				<div class="panel-heading"> {{ ctd(r.dt) | date: 'd MMMM, y' }}</div>
+				
+				<div class="panel-body">
+					Day temp: <b> {{ ktd(r.temp.day) }}℃</b> | Night temp: <b> {{ ktd(r.temp.eve) }}℃</b>
+				</div>
+				
+                <div class="panel-footer">
+					Description: <b>{{ r.weather[0].description }}</b>
+				</div>
+				
+            </div>
+		</div>
+	</div>
+</div>
+
